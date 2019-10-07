@@ -49,8 +49,8 @@ The UART message looks like this:
 For simplicity's sake, the RSSI value is sent at the same time the bar chart is refreshed on the LCD.
 
 ## Doc
-[MSP430FR413x mixed-signal microcontrollers datasheet](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/msp430fr4133.pdf)
-[MSP430FR4xx and MSP430FR2xx family user's guide](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/slau445i.pdf)
-[DLP-7970ABP Hardware Update Overview](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/sloa226.pdf)
+[MSP430FR413x mixed-signal microcontrollers datasheet](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/msp430fr4133.pdf)  
+[MSP430FR4xx and MSP430FR2xx family user's guide](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/slau445i.pdf)  
+[DLP-7970ABP Hardware Update Overview](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/sloa226.pdf)  
 [F430FRL152H NFC Sensor Tag Application Example With MSP430™ Microcontrollers](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/sloa233.pdf)  
-[TRF7970A Multiprotocol Fully Integrated 13.56-MHz RFID and Near Field Communication (NFC) Transceiver IC](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/trf7970a.p)
+[TRF7970A Multiprotocol Fully Integrated 13.56-MHz RFID and Near Field Communication (NFC) Transceiver IC](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/trf7970a.p)  
