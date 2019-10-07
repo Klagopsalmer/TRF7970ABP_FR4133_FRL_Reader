@@ -111,7 +111,7 @@
 void main(void)
 {
 	// Stop the Watchdog timer
-	WDT_A_hold(__MSP430_BASEADDRESS_WDT_A__);
+    WDTCTL = WDTPW | WDTHOLD;
 	
 	// Select DCO to be 8 MHz
 	MCU_initClock(8000);
