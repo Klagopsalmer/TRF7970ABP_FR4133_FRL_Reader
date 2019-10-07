@@ -48,7 +48,7 @@
 
 // Toggle UART Host Communication functionality
 
-//#define ENABLE_HOST
+#define ENABLE_HOST
 
 //===============================================================
 
