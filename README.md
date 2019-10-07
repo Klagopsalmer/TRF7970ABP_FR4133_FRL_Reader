@@ -9,8 +9,8 @@ Source code can be downloaded [here](http://www.ti.com/lit/an/sloa233/sloa233.zi
 ## Software changes
 [Fix compilation error caused by include casing.](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/commit/b752b348c85d3f6210ea718dc047b29057960b5a)   
 [Fix watchdog disable not working.](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/commit/c6101a07b829fa8c737466e8e43a63f3e39bf3a0)   
-[Enable UART host logging](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/tree/ed62871c9fffa22a1655af4e9c1f3e885a53b0ff)  
-[Allow sending only RSSI by UART](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/tree/7b4f4850043c7cdd0ad0fc7577c4a263f5d3766c)
+[Enable UART host logging](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/commit/ed62871c9fffa22a1655af4e9c1f3e885a53b0ff)  
+[Allow sending only RSSI by UART](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/commit/7b4f4850043c7cdd0ad0fc7577c4a263f5d3766c)
 ## Hardware setup
 Ensure that the IRQ jumper on the DLP-7970ABP booster pack is set to position 1 (default) as described in [DLP-7970ABP Hardware Update Overview](https://github.com/Klagopsalmer/TRF7970ABP_FR4133_FRL_Reader/blob/master/doc/sloa226.pdf)
 
