@@ -39,7 +39,7 @@
  * @addtogroup HAL_Buttons
  * @{
  ******************************************************************************/
-#include "HAL_Buttons.h"
+#include "hal_Buttons.h"
 
 volatile uint8_t buttonDebounce = 0;
 volatile uint8_t buttonsPressed = 0;

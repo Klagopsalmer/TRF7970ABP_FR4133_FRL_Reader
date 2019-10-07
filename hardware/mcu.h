@@ -41,7 +41,7 @@
 
 //===============================================================
 
-#include "MSP430.h" 		// Processor specific header
+#include "msp430.h" 		// Processor specific header
 #include "types.h"
 #include "cs.h"
 
