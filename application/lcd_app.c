@@ -96,6 +96,12 @@ void LCD_printRSSI(void)
 
 	ui8RSSILevel = ui8RSSILevel & 0x07;
 
+#ifdef ENABLE_RSSI
+	UART_sendCString("RSSI: ");
+    UART_putByte(ui8RSSILevel);
+    UART_putNewLine();
+#endif
+
 	if (ui8RSSILevel < 0x02)
 	{
 	    LCDMEM[12] = 0x00 | (LCDMEM[12] & 0x04);

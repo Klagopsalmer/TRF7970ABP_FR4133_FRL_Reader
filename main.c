@@ -136,7 +136,7 @@ void main(void)
 	P4DIR |= BIT0;
 	P4OUT &= ~0x01;
 
-#ifdef ENABLE_HOST
+#if defined ENABLE_HOST || defined ENABLE_RSSI
 	UART_setup();
 #endif
 

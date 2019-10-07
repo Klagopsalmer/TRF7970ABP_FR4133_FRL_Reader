@@ -48,11 +48,12 @@
 
 // Toggle UART Host Communication functionality
 
-#define ENABLE_HOST
+//#define ENABLE_HOST
+#define ENABLE_RSSI
 
 //===============================================================
 
-#ifdef ENABLE_HOST
+#if defined ENABLE_HOST || defined ENABLE_RSSI
 
 uint8_t UART_nibble2Ascii(uint8_t ui8AsciiNibble);
 void UART_putByte(uint8_t ui8TxByte);
